@@ -7,7 +7,7 @@
         <div class="navbar__logo pt-2">
           <router-link to="/" class="logo">
            <h5><img src="../assets/images/logo2.png" class="logo__img" alt=""
-          /> <span class="blue">WORLD</span> <span class="red">GLOBAL EXPRESS</span></h5>
+          /> <span class="blue">WORLD</span> <span class="red">EXPRESS DELIVERY</span></h5>
           </router-link>
         </div>
         <div class="navbar__links">

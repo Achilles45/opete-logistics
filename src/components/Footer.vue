@@ -10,9 +10,9 @@
             the world.
           </p> <br>
           <h6>For enquiries, send mails to</h6>
-            <a href="mailto:worldglobalexpressx6@yahoo.com">worldglobalexpressx6@yahoo.com</a>
+            <a href="mailto:info@worldexpressdelivery.net">info@worldexpressdelivery.net</a>
           <h6>You can also contact us at</h6>
-          <p>Dubia Creek, AI Seef District</p>
+          <p>I7 E 52nd st, New York, NY 10022, United State of America</p>
         </div>
         <div class="col-md-4">
           <h3>Useful Links</h3>
@@ -38,7 +38,7 @@
       <br />
       <hr />
       <small
-        >&copy; All right reserved. World Global Express. 2020.</small
+        >&copy; All right reserved. World Express Delivery. 2020.</small
       >
     </div>
   </footer>

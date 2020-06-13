@@ -13,9 +13,11 @@
         <div class="col-md-5">
           <h3 class="pb-3">Get in touch with us 24 X 7</h3>
           <h6><i class="fa fa-home"></i>&nbsp; Corporate Office</h6>
-          <p>Dubia Creek, AI Seef District</p><br>
+          <p>I7 E 52nd st, New York, NY 10022, United State of America</p>
           <h6><i class="fa fa-envelope"></i>&nbsp; Support Mail</h6>
-           <p><a href="mailto:worldglobalexpressx6@yahoo.com" class="">worldglobalexpressx6@yahoo.com</a></p><br>
+           <p><a href="mailto:info@worldexpressdelivery.net" class="">info@worldexpressdelivery.net</a></p>
+             <h6><i class="fa fa-phone"></i>&nbsp; Phone Number</h6>
+           <p><a href="tel:+17165626430" class="">+17165626430</a></p><br>
         </div>
         <div class="col-md-5">
           <form @submit.prevent="sendMessage()">
@@ -113,6 +115,11 @@ export default {
   }
   h6{
     color: #FB7E12;
+  }
+  p{
+    padding-bottom: .5rem;
+    font-size: .97rem;
+    opacity: .7;
   }
   form{
     input{

@@ -382,14 +382,14 @@ export default {
             weight:null,
             status:null,
             err:null,
-            receivers_country,
+            receivers_country:null,
             success:null
         }
     },
     methods:{
         createPackage(){
             //Check if the user has filled in all the details now
-            if(!this.comment || !this.delivery_date || !this.insurance || !this.items || !this.location || !this.receiver_name || !this.sender_name || receivers_country || !this.sender_address || !this.shipment_date || !this.shipping_address || !this.weight || !this.status){
+            if(!this.comment || !this.delivery_date || !this.insurance || !this.items || !this.location || !this.receiver_name || !this.sender_name || !this.receivers_country || !this.sender_address || !this.shipment_date || !this.shipping_address || !this.weight || !this.status){
                 this.err = 'Error. Please make sure all fields has been filled out first'
             }else{
                 //Create a new package in firestore now

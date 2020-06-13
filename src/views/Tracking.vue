@@ -65,7 +65,6 @@
                   <td>{{ trackedPackage.shipping_address }}</td>
                 </tr>
                  <tr>
-                   //Added something
                   <td>RECEIVER'S COUNTRY</td>
                   <td>{{ trackedPackage.receivers_country }}</td>
                 </tr>

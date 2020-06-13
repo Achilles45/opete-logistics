@@ -61,11 +61,16 @@
                   <td>{{ trackedPackage.receiver_name }}</td>
                 </tr>
                 <tr>
-                  <td>SHIPPING ADDRESS</td>
+                  <td>RECEIVER'S ADDRESS</td>
                   <td>{{ trackedPackage.shipping_address }}</td>
                 </tr>
+                 <tr>
+                   //Added something
+                  <td>RECEIVER'S COUNTRY</td>
+                  <td>{{ trackedPackage.receivers_country }}</td>
+                </tr>
                 <tr>
-                  <td>PRESENT DESTINATION DELIVERING STATUS</td>
+                  <td>DELIVERING STATUS</td>
                   <td class="destination">{{ trackedPackage.status }}</td>
                 </tr>
                 <tr>

@@ -113,6 +113,9 @@ export default {
 }
 //MEDIA QUERIES
 @media only screen and (max-width: 1000px) {
+  h5{
+    font-size: 1rem !important;
+  }
   .navbar__toggler {
     display: block !important;
     cursor: pointer;

@@ -65,6 +65,14 @@
                   <td>{{ trackedPackage.shipping_address }}</td>
                 </tr>
                  <tr>
+                  <td>RECEIVER'S EMAIL</td>
+                  <td>{{ trackedPackage.receivers_email }}</td>
+                </tr>
+                 <tr>
+                  <td>RECEIVER'S PHONE</td>
+                  <td>{{ trackedPackage.receivers_phone }}</td>
+                </tr>
+                 <tr>
                   <td>RECEIVER'S COUNTRY</td>
                   <td>{{ trackedPackage.receivers_country }}</td>
                 </tr>

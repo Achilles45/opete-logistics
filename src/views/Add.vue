@@ -93,6 +93,22 @@
                             </div>
                         </div>
                     </div>
+
+                     <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="">Receiver's Email</label>
+                                <input type="email" class="form-control" v-model="receivers_email">
+                            </div>
+                        </div>
+                         <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="">Receiver's Phone Number</label>
+                                <input type="tel" class="form-control" v-model="receivers_phone">
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="row">
                          <div class="col-md-6">
                             <div class="form-group">
@@ -383,13 +399,15 @@ export default {
             status:null,
             err:null,
             receivers_country:null,
-            success:null
+            success:null,
+            receivers_email: null,
+            receivers_phone: null
         }
     },
     methods:{
         createPackage(){
             //Check if the user has filled in all the details now
-            if(!this.comment || !this.delivery_date || !this.insurance || !this.items || !this.location || !this.receiver_name || !this.sender_name || !this.receivers_country || !this.sender_address || !this.shipment_date || !this.shipping_address || !this.weight || !this.status){
+            if(!this.comment || !this.delivery_date || !this.insurance || !this.items || !this.location || !this.receiver_name || !this.sender_name || !this.receivers_country || !this.sender_address || !this.shipment_date || !this.shipping_address || !this.weight || !this.status || !this.receivers_email || !this.receivers_phone){
                 this.err = 'Error. Please make sure all fields has been filled out first'
             }else{
                 //Create a new package in firestore now
@@ -406,7 +424,9 @@ export default {
                     shipping_address:this.shipping_address,
                     receivers_country: this.receivers_country,
                     weight:this.weight,
-                    status:this.status
+                    status:this.status,
+                    receivers_email: this.receivers_email,
+                    receivers_phone: this.receivers_phone
                 })
                 .then(()=>{
                     this.success = 'Package successfully created. Please go to your firebase databse and copy the ID under packages section'
